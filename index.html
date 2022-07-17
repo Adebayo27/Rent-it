@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="px-5">
@@ -24,7 +27,8 @@
                 <a href="#steps" class="mr-5 hover:text-gray-900">Steps</a>
             </nav>
             <a href="#contact"
-                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Contact us
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Contact
+                us
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -43,11 +47,12 @@
                     Do you desire to learn a new skill, but don't have the funds to acquire the gadgets you need? <br>
                     Do you desire an office space to build your ideas but can't afford to pay for a space? <br>
                     Do you desire to work but don't have tools?
-                    
+
                     Then Rent it.</p>
                 <div class="flex justify-center">
                     <a href="#products"
-                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">See Products</a>
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">See
+                        Products</a>
                     <a href="#steps"
                         class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Steps</a>
                 </div>
@@ -134,51 +139,44 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Products -->
     <section class="text-gray-600 body-font" id="products">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap -m-4">
                 <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
-                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="legion.png">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="legion.png">
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Laptops</h3>
                         <h2 class="text-gray-900 title-font text-lg font-medium mb-1">Lenovo Legion</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button" id="open-btn"
-                            data-name="Lenovo Legion"
-                            data-image="legion.png"
-                            data-details="
+                            type="button" id="open-btn" data-daily="NGN 2,000" data-weekly="NGN 8,000"
+                            data-monthly="NGN 25,000" data-name="Lenovo Legion" data-image="legion.png" data-details="
                             Product Name: Lenovo Legion <br/> 
                             Processor: Intel (R) Core(TM) i7-8750H CPU @2.20GHz <br/>
                             Installed RAM: 16.0GB <br/>
                             System Type: 64-bit operating system <br/>
                             Storage: 1TB HDD <br/>
                             Type: Used
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
                 </div>
                 <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
-                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="elite.png">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="elite.png">
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Laptops</h3>
                         <h2 class="text-gray-900 title-font text-lg font-medium"> HP Elitebook x360</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button" id="open-btn"
-                            data-name="HP Elitebook x360"
-                            data-image="elite.png"
-                            data-details="
+                            type="button" id="open-btn" data-daily="NGN 2,000" data-weekly="NGN 8,000"
+                            data-monthly="NGN 25,000" data-name="HP Elitebook x360" data-image="elite.png" data-details="
                             Product Name: HP Elitebook x360 <br/> 
                             Processor: Intel (R) Core(TM) i7-7600U CPU @2.80GHz
                             Installed RAM: 16.0GB
@@ -186,34 +184,29 @@
                             Storage: 500GB SSD
                             Type: Used
 
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
                 </div>
                 <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
-                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="pavilon.png">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="pavilon.png">
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Laptops</h3>
                         <h2 class="text-gray-900 title-font text-lg font-medium">HP Pavilion x360</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button"
-                            data-name="HP Pavilion x360"
-                            data-image="pavilon.png"
-                            data-details="
+                            type="button" data-daily="NGN 2,000" data-weekly="NGN 8,000" data-monthly="NGN 25,000"
+                            data-name="HP Pavilion x360" data-image="pavilon.png" data-details="
                             Product Name: HP Elitebook x360 <br/> 
                             Processor: Intel (R) Core(TM) i7-7600U CPU @2.80GHz
                             Installed RAM: 16.0GB
                             System Type: 64-bit operating system
                             Storage: 500GB SSD
                             Type: Used
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
@@ -221,18 +214,15 @@
 
                 <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
-                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="macbook.png">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="macbook.png">
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Laptops</h3>
                         <h2 class="text-gray-900 title-font text-lg font-medium">Apple MacBook Air 13</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button"
-                            data-name="Apple MacBook Air 13"
-                            data-image="macbook.png"
-                            data-details="
+                            type="button" data-daily="NGN 2,000" data-weekly="NGN 8,000" data-monthly="NGN 25,000"
+                            data-name="Apple MacBook Air 13" data-image="macbook.png" data-details="
                             Product Name: Apple MacBook Air 13 <br/> 
                             Processor: Intel (R) Core(TM) i3-7100U CPU @2.40GHz
                             Installed RAM: 8.0GB
@@ -240,8 +230,7 @@
                             Storage: 256GB HDD
                             Type: New
 
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
@@ -249,17 +238,16 @@
 
                 <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
-                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="canon.png">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="canon.png">
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Printer</h3>
-                        <h2 class="text-gray-900 title-font text-lg font-medium">Canon Pixma TS3140 Wireless Printer Print/Scan/Copy</h2>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Canon Pixma TS3140 Wireless Printer
+                            Print/Scan/Copy</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button"
-                            data-name="Canon Pixma TS3140 Wireless Printer Print/Scan/Copy"
-                            data-image="canon.png"
+                            type="button" data-daily="NGN 2,000" data-weekly="NGN 8,000" data-monthly="NGN 25,000"
+                            data-name="Canon Pixma TS3140 Wireless Printer Print/Scan/Copy" data-image="canon.png"
                             data-details="
                             Product Name: Canon Pixma TS3140 Wireless Printer Print/Scan/Copy <br/>
                             Compatible with PC and Mac,
@@ -270,8 +258,7 @@
                             Uses 2 ink cartridge,
                             Recommended ink: 445; 446X,
                             Type - Used,
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
@@ -283,12 +270,12 @@
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Camera</h3>
-                        <h2 class="text-gray-900 title-font text-lg font-medium">Nikon D5100 Digital SLR Camera With 18-55mm Kit Lens</h2>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Nikon D5100 Digital SLR Camera With
+                            18-55mm Kit Lens</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button"
-                            data-name="Nikon D5100 Digital SLR Camera With 18-55mm Kit Lens"
-                            data-image="nixon_used.png"
+                            type="button" data-daily="NGN 2,000" data-weekly="NGN 8,000" data-monthly="NGN 25,000"
+                            data-name="Nikon D5100 Digital SLR Camera With 18-55mm Kit Lens" data-image="nixon_used.png"
                             data-details="
                             Product Name:Nikon D5100 Digital SLR Camera With 18-55mm Kit Lens <br/>
                             Outstanding image quality with 16.2 MP CMOS image sensor and ISO 100-6400 (expandable to 25,600),
@@ -298,8 +285,7 @@
                             Class leading 11-Point Autofocus,
                             Type - Used;
 
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
@@ -311,12 +297,12 @@
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Camera</h3>
-                        <h2 class="text-gray-900 title-font text-lg font-medium">Nikon D3300 DSLR Camera With 18-55mm Kit Lens</h2>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Nikon D3300 DSLR Camera With 18-55mm
+                            Kit Lens</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button"
-                            data-name="Nikon D3300 DSLR Camera With 18-55mm Kit Lens"
-                            data-image="nixon_used.png"
+                            type="button" data-daily="NGN 2,000" data-weekly="NGN 8,000" data-monthly="NGN 25,000"
+                            data-name="Nikon D3300 DSLR Camera With 18-55mm Kit Lens" data-image="nixon_used.png"
                             data-details="
                             Product Name: Nikon D3300 DSLR Camera With 18-55mm Kit Lens <br/>
                             24.2MP DX-Format CMOS Sensor,
@@ -328,8 +314,7 @@
                             Compatible with WU-1a Wireless Adapter,
                             Type - New.
 
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
@@ -337,18 +322,15 @@
 
                 <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
-                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="nokiac3.png">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="nokiac3.png">
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Phones</h3>
                         <h2 class="text-gray-900 title-font text-lg font-medium">Nokia C30</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button"
-                            data-name="Nokia C30"
-                            data-image="nokiac3.png"
-                            data-details="
+                            type="button" data-daily="NGN 600" data-weekly="NGN 3,500" data-monthly="NGN 11,000"
+                            data-name="Nokia C30" data-image="nokiac3.png" data-details="
                             Device Name: Nokia C30 <br/>
                             Front Camera - 8MP,
                             Rear Camera - 23MP + 5MP + 2MP,
@@ -358,8 +340,7 @@
                             OS - Android 11,
                             Colour - Green,
                             Type - Used
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
@@ -367,18 +348,15 @@
 
                 <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
-                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="iphone6.png">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="iphone6.png">
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Phones</h3>
                         <h2 class="text-gray-900 title-font text-lg font-medium">I - Phone 6s</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button"
-                            data-name="I - Phone 6s"
-                            data-image="iphone6.png"
-                            data-details="
+                            type="button" data-daily="NGN 600" data-weekly="NGN 3,500" data-monthly="NGN 11,000"
+                            data-name="I - Phone 6s" data-image="iphone6.png" data-details="
                             Product Name: I - Phone 6s <br/>
                             Front Camera - 5MP,
                             Rear Camera - 8MP, 
@@ -388,8 +366,7 @@
                             OS - iOS 15, 
                             Colour - Silver,
                             Type - Used
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
@@ -397,17 +374,16 @@
 
                 <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
-                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="samsung.png">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="samsung.png">
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Phones</h3>
-                        <h2 class="text-gray-900 title-font text-lg font-medium">Samsung Galaxy A03, 3GB/32GB Memory, Android 11 - Black</h2>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Samsung Galaxy A03, 3GB/32GB Memory,
+                            Android 11 - Black</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button"
-                            data-name="Samsung Galaxy A03, 3GB/32GB Memory, Android 11 - Black"
-                            data-image="samsung.png"
+                            type="button" data-daily="NGN 600" data-weekly="NGN 3,500" data-monthly="NGN 11,000"
+                            data-name="Samsung Galaxy A03, 3GB/32GB Memory, Android 11 - Black" data-image="samsung.png"
                             data-details="
                             Product Name: Samsung Galaxy A03, 3GB/32GB Memory, Android 11 - Black <br/>
                             Front Camera - 5MP
@@ -418,8 +394,7 @@
                             OS - Android 11
                             Colour - Black
                             Type - New
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
@@ -427,18 +402,15 @@
 
                 <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
-                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="samsung.png">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="samsung.png">
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Phones</h3>
                         <h2 class="text-gray-900 title-font text-lg font-medium">Samsung Galaxy A13</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button"
-                            data-name="Samsung Galaxy A13"
-                            data-image="samsung.png"
-                            data-details="
+                            type="button" data-daily="NGN 600" data-weekly="NGN 3,500" data-monthly="NGN 11,000"
+                            data-name="Samsung Galaxy A13" data-image="samsung.png" data-details="
                             Product Name: Samsung Galaxy A13 <br/>
                             Front Camera - 8MP,
                             Rear Camera - 50MP,
@@ -449,8 +421,7 @@
                             Color - Black,
                             Type - New
 
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
@@ -458,26 +429,23 @@
 
                 <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
                     <a class="block relative h-48 rounded overflow-hidden">
-                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
-                            src="https://dummyimage.com/425x265">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="headphone.png">
                     </a>
                     <div class="mt-4">
                         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Phones</h3>
-                        <h2 class="text-gray-900 title-font text-lg font-medium">Nokia Essential Wireless Headphones</h2>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Nokia Essential Wireless Headphones
+                        </h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button"
-                            data-name="Nokia Essential Wireless Headphones"
-                            data-image="elite.png"
-                            data-details="
+                            type="button" data-daily="NGN 600" data-weekly="NGN 3,500" data-monthly="NGN 11,000"
+                            data-name="Nokia Essential Wireless Headphones" data-image="headphone.png" data-details="
                             Product Name: Nokia Essential Wireless Headphones <br/>
                             Feel the sound - 40mm dynamic driver for a crisp, rich music experience,
                             Robust and comfy – built with anodized aluminium outer covers and soft inner PU leather earpads,
                             Foldable headband – superb portability during transit,
                             Long on power - Enjoy up to 40 hours* of wireless play time or extend it with the 3.5mm aux jack and cable
 
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
@@ -493,22 +461,97 @@
                         <h2 class="text-gray-900 title-font text-lg font-medium">Apple IPhone 11 Pro</h2>
                         <button
                             class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
-                            type="button"
-                            data-name="Apple IPhone 11 Pro"
-                            data-image="iphone_new.png"
-                            data-details="
+                            type="button" data-daily="NGN 600" data-weekly="NGN 3,500" data-monthly="NGN 11,000"
+                            data-name="Apple IPhone 11 Pro" data-image="iphone_new.png" data-details="
                             Product Name: Apple IPhone 11 Pro <br/>
                             Memory: (4GB ROM, 512GB RAM)
                             Display: 6.5-Inch Super Retina XDR display
                             Camera: 12MP Selfie, 12MP Tripple Rear Cameras
                             Single Nano Sim
-                            "
-                            >
+                            ">
                             Rent It
                         </button>
                     </div>
                 </div>
-                
+
+                <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="iphone_new.png">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Phones</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium"> Oppo Reno 7</h2>
+                        <button
+                            class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
+                            type="button" data-daily="NGN 600" data-weekly="NGN 3,500" data-monthly="NGN 11,000"
+                            data-name=" Oppo Reno 7" data-image="iphone_new.png" data-details="
+                            Product Name:  Oppo Reno 7 <br/>
+                            Display: 6.43-inch
+                            Memory: 256GB ROM, 8GB RAM with 5GB RAM  Expansion
+                            OS: Android 12
+                            Camera: 64MP/2MP/2MP + 32MP Ultra Sensing Selfie
+                            Network: 4G LTE with 5G Compatible
+                            Processor: Qualcomm Snapdragon
+                            Battery: 4500mAh
+
+                            ">
+                            Rent It
+                        </button>
+                    </div>
+                </div>
+
+                <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="iphone_new.png">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Television</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">LED LG TV</h2>
+                        <button
+                            class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
+                            type="button" data-daily="NGN 2,000" data-weekly="NGN 8,000" data-monthly="NGN 25,000"
+                            data-name="LED LG TV" data-image="iphone_new.png" data-details="
+                            Product Name: LED LG TV <br/>
+                            32-Inch Display
+                            Antenna/DTV Input
+                            HDMI 1
+                            Active HDR
+                            Dynamic Color
+                            Virtual Surround Sound
+
+                            ">
+                            Rent It
+                        </button>
+                    </div>
+                </div>
+
+                <div style="background:#fcf8f8;" class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="iphone_new.png">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Work Space</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Private Office</h2>
+                        <button
+                            class="open-btn mt-3 block text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
+                            type="button" data-daily="NGN 2,000" data-weekly="NGN 8,000" data-monthly="NGN 25,000"
+                            data-name="Private Office" data-image="iphone_new.png" data-details="
+                            Product Name: Private Office <br/>
+                            Good for up to 5 people
+                            Fully-furnished, private office space
+                            Location: Ikeja, GRA
+                            Free Wifi
+                            Fully Air - conditioned
+                            
+                            ">
+                            Rent It
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -560,7 +603,7 @@
         </div>
     </section> -->
     <footer class="text-gray-600 body-font" id="contact">
-       
+
         <div class="bg-gray-100">
             <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
                 <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -612,7 +655,7 @@
 
 
     <div id="popup-modal" tabindex="-1"
-        class="hidden bg-gray-600 bg-opacity-50 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 md:inset-0 h-modal md:h-full justify-center items-center flex"
+        class="hidden bg-gray-600 bg-opacity-50 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 md:inset-0 h-modal md:h-full justify-center items-center flex "
         aria-modal="true" role="dialog">
         <div class="relative mx-auto p-4 w-full max-w-3xl h-full md:h-auto">
             <!-- Modal content -->
@@ -633,104 +676,176 @@
                     </button>
                 </div>
                 <!-- Modal body -->
-                <div class="flex flex-col sm:flex-row mt-10 px-3">
+                <form onsubmit="event.preventDefault(); handleSubmit(event)"
+                    class="flex flex-col sm:flex-row mt-10 px-3 py-2overflow-x-hidden overflow-y-auto"
+                    style="height: 80vh;" id="myForm">
                     <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                         <div class="rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                             <img id="prodImg" src="laptop.png" alt="">
                         </div>
                         <div class="mt-4">
                             <div class="flex items-center mb-4">
-                                <input id="default-radio-1" type="radio" value="" name="default-radio"
+                                <input id="default-radio-1" type="radio" required value="daily" name="duration"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="default-radio-1"
-                                    class="ml-2 text-sm font-medium">Daily - NGN 2,000</label>
+                                <label for="default-radio-1" class="ml-2 text-sm font-medium">Daily - <span
+                                        id="daily"></span></label>
                             </div>
                             <div class="flex items-center mb-4">
-                                <input checked id="default-radio-2" type="radio" value="" name="default-radio"
+                                <input checked id="default-radio-2" type="radio" value="weekly" name="duration"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="default-radio-2"
-                                    class="ml-2 text-sm font-medium">Weekly - NGN 8,000</label>
+                                <label for="default-radio-2" class="ml-2 text-sm font-medium">Weekly - <span
+                                        id="weekly"></span></label>
                             </div>
 
                             <div class="flex items-center">
-                                <input checked id="default-radio-2" type="radio" value="" name="default-radio"
+                                <input checked id="default-radio-2" type="radio" value="monthly" name="duration"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="default-radio-2"
-                                    class="ml-2 text-sm font-medium">Monthly - NGN 25,000</label>
+                                <label for="default-radio-2" class="ml-2 text-sm font-medium">Monthly - <span
+                                        id="monthly"></span></label>
                             </div>
                         </div>
                     </div>
                     <div
                         class="sm:w-2/3 sm:pl-8 sm:py-8 border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                        <p class="leading-relaxed text-lg mb-4" id="product-description"> </p>
+                        <p class="leading-relaxed text-sm mb-4" id="product-description"> </p>
 
-                        <form>
+                        <div class="pb-4">
+                            <input type="text" hidden id="product_name">
                             <div class="mb-6">
-                                <label for="text"
-                                    class="block mb-2 text-sm font-medium">Name</label>
+                                <label for="text" class="block mb-2 text-sm font-medium">Quantity</label>
+                                <input type="number" id="quantity"
+                                    class="bg-white-50 border border-white-300 text-white-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    placeholder="Quantity" required="">
+                            </div>
+                            <div class="mb-6">
+                                <label for="text" class="block mb-2 text-sm font-medium">Name</label>
                                 <input type="text" id="name"
                                     class="bg-white-50 border border-white-300 text-white-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="Name" required="">
                             </div>
                             <div class="mb-6">
-                                <label for="phone"
-                                    class="block mb-2 text-sm font-medium">Phone Number</label>
+                                <label for="phone" class="block mb-2 text-sm font-medium">Phone Number</label>
                                 <input type="text" id="phone"
                                     class="bg-white-50 border border-white-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="08012345678" required="">
                             </div>
                             <div class="mb-6">
-                                <label for="email"
-                                    class="block mb-2 text-sm font-medium">Email
+                                <label for="email" class="block mb-2 text-sm font-medium">Email
                                     address</label>
                                 <input type="email" id="email"
                                     class="bg-white-50 border border-white-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="john.doe@company.com" required="">
                             </div>
                             <div class="mb-6">
-                                <label for="Delivery Address"
-                                    class="block mb-2 text-sm font-medium">Delivery Address</label>
-                                    <textarea id="address" rows="4" class="block p-2.5 w-full text-sm bg-white-50 rounded-lg border border-white-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your address..."></textarea>
+                                <label for="Delivery Address" class="block mb-2 text-sm font-medium">Delivery
+                                    Address</label>
+                                <textarea id="address" required rows="4"
+                                    class="block p-2.5 w-full text-sm bg-white-50 rounded-lg border border-white-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    placeholder="Your address..."></textarea>
                             </div>
-                            <button type="submit"
+                            <button type="submit" id="submitBtn"
                                 class="text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800">Submit</button>
-                        </form>
+                        </div>
 
                     </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-modal2" tabindex="-1"
+        class="hidden bg-opacity-50 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 md:inset-0 h-modal md:h-full justify-center items-center flex"
+        aria-modal="true" role="dialog">
+        <div class="relative p-4 w-full mx-auto max-w-md h-full md:h-auto">
+            <div class="relative bg-white rounded-lg shadow dark:bg-gray-100">
+                <button type="button"
+                    class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
+                    data-modal-toggle="popup-modal2">
+                    <span class="sr-only">Close modal</span>
+                </button>
+                <div class="p-6 text-center">
+                    <i class="fa fa-check fa-10x text-green-600"></i>
+                    <h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Request submitted
+                        successfully!</h3>
+                    <button data-modal-toggle="popup-modal2" id="btn2" type="button"
+                        class="text-indigo-500 bg-white hover:bg-indigo-100 focus:ring-4 focus:outline-none focus:ring-indigo-200 rounded-lg border border-indigo-200 text-sm font-medium px-5 py-2.5 hover:text-indigo-900 focus:z-10 dark:bg-indigo-700 dark:text-indigo-300 dark:border-indigo-500 dark:hover:text-white dark:hover:bg-indigo-600 dark:focus:ring-indigo-600">Close</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         let modal = document.getElementById("popup-modal");
+        let modal2 = document.getElementById("popup-modal2");
 
         let btn = document.getElementById("open-btn");
+        let btn2 = document.getElementById("btn2");
 
         let button = document.getElementById("ok-btn");
 
-        // btn.onclick = function () {
-        //     modal.style.display = "block";
+        btn2.onclick = function () {
+            modal2.style.display = "none";
 
-        // }
+        }
         // We want the modal to close when the OK button is clicked
         button.onclick = function () {
             modal.style.display = "none";
         }
 
         var elements = document.getElementsByClassName("open-btn");
-        var myFunction = function() {
+        var myFunction = function () {
             var name = this.dataset.name;
             var description = this.dataset.details;
             var image = this.dataset.image;
+            var daily = this.dataset.daily;
+            var weekly = this.dataset.weekly;
+            var monthly = this.dataset.monthly;
             modal.style.display = "block";
             document.getElementById('product-description').innerHTML = description
+            document.getElementById('daily').innerHTML = daily
+            document.getElementById('weekly').innerHTML = weekly
+            document.getElementById('monthly').innerHTML = monthly
+            document.getElementById('product_name').value = name
             document.getElementById('prodImg').src = image
             // prodImg
         };
 
         for (var i = 0; i < elements.length; i++) {
             elements[i].addEventListener('click', myFunction, false);
+        }
+
+        const handleSubmit = (e) => {
+            e.preventDefault()
+            $('#submitBtn').html('Loading...');
+            $('#submitBtn').attr('disabled', true);
+            $.ajax({
+                type: "POST",
+                url: 'https://hooks.zapier.com/hooks/catch/12957944/bg8twiu',
+                data: {
+                    "duration": $("input[name=duration]:checked").val(),
+                    "name": $("#name").val(),
+                    "quantity": $("#quantity").val(),
+                    "phone": $("#phone").val(),
+                    "email": $("#email").val(),
+                    "address": $("#address").val(),
+                    "product_name": $("#product_name").val(),
+                },
+                success: function (response) {
+                    modal.style.display = 'none'
+                    modal2.style.display = 'block'
+                    $('#submitBtn').html('Submit');
+                    $('#submitBtn').attr('disabled', false);
+                    $("#name").val('')
+                    $("#quantity").val('')
+                    $("#email").val('')
+                    $("#address").val('')
+                    $("#product_name").val('')
+                    $("#phone").val('')
+                }
+            });
         }
     </script>
 </body>
